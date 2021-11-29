@@ -81,18 +81,23 @@ Afim de cumprir com a solução estabelcidada na seção acima, existem 3 objeti
 # Protótipos de Tela 
 
 **Home Page**
+
 ![Proto 1](https://user-images.githubusercontent.com/64094060/143792082-88c81877-8093-4ba0-ae22-3222c8286893.png)
 
 **Cadastro de Usuários**
+
 ![Proto 2](https://user-images.githubusercontent.com/64094060/143792084-92991b60-5a46-4ed4-a42b-fcfca619c261.png)
 
 **Cadastro de Funcionário**
+
 ![Proto 3](https://user-images.githubusercontent.com/64094060/143792086-afc0a480-a305-483c-b17a-b710736fbb41.png)
 
 **About Page**
+
 ![Proto 4](https://user-images.githubusercontent.com/64094060/143792087-4cebcafe-3815-43c5-b473-8ac7a91ebe92.png)
 
 **Extração de Relatórios**
+
 ![Proto 5](https://user-images.githubusercontent.com/64094060/143792088-8d374b36-2adc-425e-9313-00df149e5657.png)
 
 
