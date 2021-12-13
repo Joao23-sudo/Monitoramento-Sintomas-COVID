@@ -8,7 +8,6 @@ PRÁTICA PROFISSIONAL EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS | 05J
 # INTEGRANTES
 
 * Bruna Giangrande | TIA: 41843551
-* Giullia Nannini Bergamasco | TIA: 31887759
 * João Vitor Freire Dias | TIA: 31919537
 * Pedro Victor Dini Silva de Paula | TIA: 31857345
 
