@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Login e Cadastro</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" type="text/css" href="signin.css" />
+</head>
+<body>
+  <div class="container" >
+    <a class="links" id="paracadastro"></a>
+    <a class="links" id="paralogin"></a>
+     
+    <div class="content">      
+      <!--Login-->
+      <div id="login">
+        <form method="post" action="login.php"> 
+          <h1>Login</h1> 
+          <p> 
+            <label for="email_login">E-mail</label>
+            <input id="email_login" name="email_login" required="required" type="text" placeholder="ex. contato@mackenzista.com"/>
+          </p>
+           
+          <p> 
+            <label for="senha_login">Senha</label>
+            <input id="senha_login" name="senha_login" required="required" type="password" placeholder="ex. senha" /> 
+          </p>
+           
+          <p> 
+            <input type="checkbox" name="manterlogado" id="manterlogado" value="" /> 
+            <label for="manterlogado">Manter-me logado</label>
+          </p>
+           
+          <p> 
+            <input class="inputSubmit" type="submit" name="submit_login" value="Logar" /> 
+          </p>
+           
+          <p class="link">
+            Não possui conta?
+            <a href="#paracadastro">Sign Up</a>
+          </p>
+        </form>
+      </div>
+ 
+      <!--cadastro-->
+      <div id="cadastro">
+        <form method="post" action="cadastro.php"> 
+          <h1>Cadastrar</h1> 
+          <center><h2>Portal de Monitoramento Mackenzie Covid-19</h2></center>
+           
+          <p> 
+            <label for="nome_cadastro">Nome</label>
+            <input id="nome_cad" name="nome_cadastro" required="required" type="text" placeholder="Nome" />
+          </p>
+           
+          <p> 
+            <label for="email_cadastro">E-mail</label>
+            <input id="email_cad" name="email_cadastro" required="required" type="email" placeholder="31919537@mackenzista.com.br"/> 
+          </p>
+           
+          <p> 
+            <label for="senha_cadastro">Senha</label>
+            <input id="senha_cad" name="senha_cadastro" required="required" type="password"/>
+          </p>
+           
+          <p> 
+            <input type="submit" value="Cadastrar"/> 
+          </p>
+           
+          <p class="link">  
+            <a href="#paralogin">Sign-In</a>
+          </p>
+        </form>
+      </div>
+    </div>
+  </div>  
+</body>
+</html>
